@@ -1,11 +1,6 @@
 # HingeAutomation
 
 
-enable venv:
-➜ source "{path-to-the-folder-local}/goodnight bot/.venv/bin/activate"
-
-----------------------------------------------------------------------------------------------------------
-
 Run the android simulator using android studio
 
 Once the android device is running
@@ -63,6 +58,8 @@ Download appium inspecter if needed.
 
 -----------------------------------------------------------------------------------------------------------
 
-Go back where the venv was active and run the command
+Activate venv and run the code
+
+➜ source "{path-to-the-folder-local}/goodnight bot/.venv/bin/activate"
 
 ➜ python hingeandroid.py
